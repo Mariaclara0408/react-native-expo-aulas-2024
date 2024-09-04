@@ -8,8 +8,8 @@ export function FontProvier({ children }){
 
     const [loaded, error] = useFonts({
         regular: require("../../assets/fonts/Andika-Regular.ttf"),
-        bold: require("../../assets/fonts/Adika-Bold.tff"),
-        italic: require("../../assets/fonts/Andika-Italic.tff"),
+        bold: require("../../assets/fonts/Andika-Bold.ttf"),
+        italic: require("../../assets/fonts/Andika-Italic.ttf"),
         bolditalic: require("../../assets/fonts/Andika-BoldItalic.ttf")
     });
 
