@@ -15,11 +15,11 @@ export function FontProvier({ children }){
 
     if (loaded && error ) {
 
-      return <Viewr styale={{flex: 1, justifyContent: "center", alingItems: "center"}}>
+      return <View styale={{flex: 1, justifyContent: "center", alingItems: "center"}}>
         <Text styale={{ fontSize: 28, marginTop: 15}}> Carregando as fontes... </Text>
         <AntivityIndicator size ="large" color ="#0000ff"/> 
         
-        </Viewr>
+        </View>
     }
 
     return <FontContext.Provier value={{loaded}}>{children}</FontContext.Provier>
