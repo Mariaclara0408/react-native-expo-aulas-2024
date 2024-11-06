@@ -1,16 +1,16 @@
 {
   "expo": {
-    "name": "react-native-expo-aulas-2024",
-    "slug": "react-native-expo-aulas-2024",
-     "scheme": "react-native-expo-aulas-2024",
+    "name": "react-native-expo-2024-livia",
+    "slug": "react-native-expo-2024-livia",
+    "scheme": "react-native-expo-2024-livia",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/icon.png",
+    "icon": "./src/assets/transparente.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./src/assets/splash.png",
+      "image": "./src/assets/transparente.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#f5f5dc"
     },
     "ios": {
       "supportsTablet": true
@@ -18,15 +18,20 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#f5f5dc"
       }
     },
     "web": {
-      "favicon": "./src/assets/favicon.png"
+      "favicon": "./src/assets/transparente.png",
+      "bundler": "metro"
     },
     "plugins": [
-      "expo-router",
-      "expo-font"
+      "expo-font",
+      "expo-router"
     ]
-  }
+  },
+  "plugins": [
+    "expo-router",
+    "expo-font"
+  ]
 }
