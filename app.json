@@ -5,12 +5,12 @@
     "scheme": "react-native-expo-2024-livia",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/transparente.png",
+    "icon": "./src/assets/bovino.jpeg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./src/assets/transparente.png",
+      "image": "./src/assets/bovino.jpeg",
       "resizeMode": "contain",
-      "backgroundColor": "#f5f5dc"
+      "backgroundColor": "#AD9167"
     },
     "ios": {
       "supportsTablet": true
@@ -22,7 +22,7 @@
       }
     },
     "web": {
-      "favicon": "./src/assets/transparente.png",
+      "favicon": "./src/assets/bovino.jpeg",
       "bundler": "metro"
     },
     "plugins": [
